@@ -11,6 +11,7 @@ module.exports = {
                 darkGray: 'rgb(36, 36, 36)',
                 primaryOrange: '#F7AB0A',
                 darkerGray: 'rgb(51, 51, 51)',
+                blueTailwind: '#38bdf8',
             },
         },
     },
