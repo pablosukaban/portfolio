@@ -7,11 +7,11 @@ type Props = {};
 const Projects = (props: Props) => {
     const projectsList = [1, 2, 3, 4];
     return (
-        <div className="relative z-0 mx-auto flex h-screen max-w-full flex-col items-center justify-evenly overflow-hidden text-left md:flex-row">
-            <h3 className="absolute top-24 text-2xl uppercase tracking-[20px] text-gray-500">
+        <div className="relative flex h-screen w-full flex-col items-center justify-evenly gap-8">
+            <h3 className="absolute top-24 text-center text-2xl uppercase tracking-[20px] text-gray-500">
                 Проекты
             </h3>
-            <div className="relative z-20 flex w-full snap-x snap-mandatory overflow-y-hidden overflow-x-scroll">
+            <div className="relative z-20 flex w-full snap-x snap-mandatory overflow-y-hidden overflow-x-scroll scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-primaryOrange/80">
                 {projectsList.map((item, index) => (
                     <SingleProject
                         key={index}

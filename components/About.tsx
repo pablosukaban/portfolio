@@ -11,9 +11,7 @@ const About = (props: Props) => {
             transition={{ duration: 1.5 }}
             className="relative mx-auto flex h-screen max-w-7xl flex-col items-center justify-evenly px-10 text-center md:flex-row md:text-left"
         >
-            <h3 className="absolute top-24 text-2xl uppercase tracking-[20px] text-gray-500">
-                О себе
-            </h3>
+            <h3 className="heading">О себе</h3>
             <motion.img
                 initial={{ x: -200, opacity: 0 }}
                 transition={{ duration: 1.2 }}

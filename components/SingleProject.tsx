@@ -8,7 +8,7 @@ type Props = {
 
 const SingleProject = ({ index, projectsListLength }: Props) => {
     return (
-        <div className="flex h-screen w-screen flex-shrink-0 snap-center flex-col items-center justify-center space-y-5 p-20 md:p-44">
+        <div className="flex h-screen w-screen flex-shrink-0 snap-center flex-col items-center justify-center p-14 md:p-44">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <motion.img
                 initial={{ y: -300, opacity: 0 }}
@@ -18,14 +18,14 @@ const SingleProject = ({ index, projectsListLength }: Props) => {
                 src="https://cdn.sanity.io/images/ltuexkre/production/af7ca99b5a796d0698cf9121a4a0795b5022b6be-666x375.png"
                 alt="project image"
             />
-            <div className="max-w-6xl space-y-10 px-0 md:px-10">
-                <h4 className="text-center text-4xl font-semibold">
+            <div className="max-w-6xl space-y-4 px-0 md:px-6">
+                <h4 className="text-center text-2xl font-semibold md:text-4xl">
                     <span className="underline decoration-primaryOrange/50">
                         Проект {index + 1} из {projectsListLength}:
                     </span>{' '}
                     HomeLand
                 </h4>
-                <p className="text-center text-lg md:text-left">
+                <p className="text-center text-base md:text-left md:text-lg">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Officiis qui at quisquam. Similique, dolores tempore labore
                     sint ipsam corrupti a fugiat pariatur soluta perspiciatis

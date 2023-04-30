@@ -17,7 +17,7 @@ const SingleSkill = ({ icon, color, directionLeft }: Props) => {
             onMouseLeave={() => setHovered(false)}
         >
             <motion.div
-                initial={{ opacity: 0, x: directionLeft ? -200 : 200 }}
+                initial={{ opacity: 0, x: directionLeft ? -100 : 100 }}
                 transition={{ duration: 1 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 className={`fill-current  ${hovered ? color : 'text-gray-500'}`}

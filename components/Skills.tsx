@@ -47,9 +47,7 @@ const Skills = (props: Props) => {
             transition={{ duration: 1.5 }}
             className="relative mx-auto flex h-screen max-w-[2000px] flex-col items-center justify-evenly text-center md:justify-center md:text-left xl:flex-row xl:space-y-0 xl:px-10"
         >
-            <h3 className="top-24 block text-2xl uppercase tracking-[20px] text-gray-500 md:absolute">
-                Навыки
-            </h3>
+            <h3 className="heading">Навыки</h3>
 
             <h3 className="top-36 block px-4 text-center text-base uppercase tracking-[3px] text-gray-500 md:absolute md:px-0">
                 Набор инструментов, которые я использую каждый день <br /> для
