@@ -7,7 +7,7 @@ type Props = {};
 
 const Hero = (props: Props) => {
     const [text, count] = useTypewriter({
-        words: ['Привет', 'Пока', 'Слово 1'],
+        words: ['Привет', 'Меня зовут Илья', 'Я - Веб-разработчик'],
         loop: true,
         delaySpeed: 2000,
     });
