@@ -26,19 +26,6 @@ const SingleSkill = ({ icon, color, directionLeft }: Props) => {
             </motion.div>
         </div>
     );
-    // return (
-    //     <div className="relative flex cursor-pointer border border-red-300 p-4">
-    //         <motion.div
-    //             initial={{ opacity: 0, x: -200 }}
-    //             transition={{ duration: 1 }}
-    //             whileInView={{ opacity: 1, x: 0 }}
-    //             // className={}
-    //         >
-    //             {React.cloneElement(icon, { className: `hover:text-${color}` })}
-    //         </motion.div>
-    //     </div>
-
-    // );
 };
 
 export default SingleSkill;

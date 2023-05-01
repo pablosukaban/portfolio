@@ -15,17 +15,16 @@ import {
 type Props = {};
 
 const iconClasses = 'h-20 w-20 transition duration-300 ease-in-out';
-// const iconClasses = '';
 
 const Icons = [
-    <SiJavascript key={1} className={iconClasses} />,
-    <SiTypescript key={2} className={iconClasses} />,
-    <SiReact key={3} className={iconClasses} />,
-    <SiRedux key={4} className={iconClasses} />,
-    <SiHtml5 key={5} className={iconClasses} />,
-    <SiCss3 key={6} className={iconClasses} />,
-    <SiTailwindcss key={7} className={iconClasses} />,
-    <SiGithub key={8} className={iconClasses} />,
+    <SiJavascript key={1} className={iconClasses} title="JavaScript" />,
+    <SiTypescript key={2} className={iconClasses} title="Typescript" />,
+    <SiReact key={3} className={iconClasses} title="React" />,
+    <SiRedux key={4} className={iconClasses} title="Redux" />,
+    <SiHtml5 key={5} className={iconClasses} title="Html5" />,
+    <SiCss3 key={6} className={iconClasses} title="Css3" />,
+    <SiTailwindcss key={7} className={iconClasses} title="Tailwindcss" />,
+    <SiGithub key={8} className={iconClasses} title="Github" />,
 ];
 
 const colors = [

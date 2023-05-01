@@ -1,11 +1,10 @@
 import React from 'react';
-import { motion } from 'framer-motion';
 import SingleProject from './SingleProject';
+import { projectsList } from './data';
 
 type Props = {};
 
 const Projects = (props: Props) => {
-    const projectsList = [1, 2, 3, 4];
     return (
         <div className="relative flex h-screen w-full flex-col items-center justify-evenly gap-8">
             <h3 className="absolute top-24 text-center text-2xl uppercase tracking-[20px] text-gray-500">
@@ -17,6 +16,7 @@ const Projects = (props: Props) => {
                         key={index}
                         index={index}
                         projectsListLength={projectsList.length}
+                        project={item}
                     />
                 ))}
             </div>
