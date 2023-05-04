@@ -14,7 +14,8 @@ import {
 
 type Props = {};
 
-const iconClasses = 'h-20 w-20 transition duration-300 ease-in-out';
+const iconClasses =
+    'h-14 w-14 md:h-20 md:w-20 transition duration-300 ease-in-out';
 
 const Icons = [
     <SiJavascript key={1} className={iconClasses} title="JavaScript" />,

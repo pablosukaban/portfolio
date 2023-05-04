@@ -13,7 +13,7 @@ type Props = {
 
 const SingleProject = ({ index, projectsListLength, project }: Props) => {
     return (
-        <div className="flex h-screen w-screen flex-shrink-0 snap-center flex-col items-center justify-center p-14 md:p-44">
+        <div className="mt-4 flex h-screen w-screen flex-shrink-0 snap-center flex-col items-center justify-center p-14 md:mt-0 md:justify-center md:p-44">
             <motion.div
                 initial={{ y: -300, opacity: 0 }}
                 transition={{ duration: 1.2 }}

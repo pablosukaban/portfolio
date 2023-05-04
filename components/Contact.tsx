@@ -21,7 +21,7 @@ const Contact = (props: Props) => {
     return (
         <div className="relative mx-auto flex h-screen max-w-7xl flex-col items-center justify-evenly px-6 text-center md:mt-0 md:px-0 md:text-left">
             <h3 className="heading">Контакты</h3>
-            <div className="flex flex-col space-y-10">
+            <div className="flex flex-col gap-4">
                 <h4 className="text-center text-2xl font-semibold md:text-4xl ">
                     У меня есть то, что вам нужно.{' '}
                     <br className="block md:hidden" />
@@ -29,7 +29,7 @@ const Contact = (props: Props) => {
                         Давайте поговорим.
                     </span>
                 </h4>
-                <div className="flex flex-col items-center justify-center gap-4">
+                <div className="flex flex-col items-center justify-center gap-2 md:gap-4">
                     <div className="flex items-center justify-center space-x-3">
                         <PhoneIcon className="h-7 w-7 animate-pulse text-primaryOrange" />
                         <p>+79122505515</p>
@@ -72,7 +72,7 @@ const Contact = (props: Props) => {
                         placeholder="Сообщение"
                         {...register('message')}
                     />
-                    <button className="rounded-md bg-primaryOrange/80 px-10 py-5 text-lg font-bold text-black transition hover:bg-primaryOrange active:scale-95">
+                    <button className="rounded-md bg-primaryOrange/80 px-10 py-3 text-lg font-bold text-black transition hover:bg-primaryOrange active:scale-95 md:py-5">
                         Подтвердить
                     </button>
                 </form>

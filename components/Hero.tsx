@@ -17,11 +17,11 @@ const Hero = (props: Props) => {
             <BackgroundCircles />
             {/* Поменять на <Image /> */}
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
+            {/* <img
                 src="https://sun9-58.userapi.com/impg/4_fXjrSx5czcPYUYivYmLBnxtlbBFB6ze2VdNw/6b7PU-_qxSM.jpg?size=521x700&quality=95&sign=a547a9352b6ca085b7929f544e51bd5d&type=album"
                 alt="profile picture"
                 className="relative h-32 w-32 rounded-full object-cover"
-            />
+            /> */}
             <div className="z-20">
                 <h2 className="pb-2 text-sm uppercase tracking-[15px] text-gray-500">
                     Разработчик
