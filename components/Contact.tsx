@@ -1,5 +1,10 @@
 import React from 'react';
-import { PhoneIcon, MapPinIcon, EnvelopeIcon } from '@heroicons/react/24/solid';
+import {
+    PhoneIcon,
+    MapPinIcon,
+    EnvelopeIcon,
+    DocumentTextIcon,
+} from '@heroicons/react/24/solid';
 import { useForm, SubmitHandler } from 'react-hook-form';
 
 type Inputs = {
@@ -41,6 +46,19 @@ const Contact = (props: Props) => {
                     <div className="flex items-center justify-center space-x-3">
                         <EnvelopeIcon className="h-7 w-7 animate-pulse text-primaryOrange" />
                         <p>ilya.prikhodko22@gmail.com</p>
+                    </div>
+                    <div className="flex items-center justify-center space-x-3">
+                        <DocumentTextIcon className="h-7 w-7 animate-pulse text-primaryOrange" />
+                        <p>
+                            Мое{' '}
+                            <a
+                                href="https://drive.google.com/file/d/1qFHiJyrEZY38_rvpMJ92RNtCsHWJxtSM/view"
+                                target="_blank"
+                                className="cursor-pointer text-primaryOrange underline"
+                            >
+                                Резюме
+                            </a>
+                        </p>
                     </div>
                 </div>
                 <form

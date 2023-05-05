@@ -2,12 +2,13 @@ import React from 'react';
 import { SocialIcon } from 'react-social-icons';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import { DocumentTextIcon } from '@heroicons/react/24/solid';
 
 type Props = {};
 
 const Header = (props: Props) => {
     return (
-        <header className="sticky top-0 z-20 mx-auto flex max-w-7xl items-start justify-between px-2 py-0 md:p-5 xl:items-center">
+        <header className="sticky top-0 z-50 mx-auto flex max-w-7xl items-start justify-between px-2 py-0 md:p-5 xl:items-center">
             <motion.div
                 initial={{
                     x: -500,
@@ -22,7 +23,7 @@ const Header = (props: Props) => {
                 transition={{
                     duration: 1.5,
                 }}
-                className="flex items-center"
+                className="grid grid-cols-4 items-center"
             >
                 <SocialIcon
                     url="https://vk.com/pablosukaban"
@@ -42,6 +43,12 @@ const Header = (props: Props) => {
                     target="_blank"
                     bgColor="transparent"
                 />
+                <a
+                    href="https://drive.google.com/file/d/1qFHiJyrEZY38_rvpMJ92RNtCsHWJxtSM/view"
+                    target="_blank"
+                >
+                    <DocumentTextIcon className="ml-2 h-8 w-8 text-[#808080]" />
+                </a>
             </motion.div>
             <motion.div
                 initial={{
