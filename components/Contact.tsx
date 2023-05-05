@@ -14,7 +14,7 @@ type Props = {};
 const Contact = (props: Props) => {
     const { register, handleSubmit } = useForm<Inputs>();
     const onSubmit: SubmitHandler<Inputs> = (formData) => {
-        const string = `mailto:zapaska96@gmail.com?subject=${formData.subject}&body=Привет, меня зовут ${formData.name}. ${formData.message} (${formData.email})`;
+        const string = `mailto:ilya.prikhodko22@gmail.com?subject=${formData.subject}&body=Привет, меня зовут ${formData.name}. ${formData.message} (${formData.email})`;
         window.location.href = string;
     };
 
@@ -40,7 +40,7 @@ const Contact = (props: Props) => {
                     </div>
                     <div className="flex items-center justify-center space-x-3">
                         <EnvelopeIcon className="h-7 w-7 animate-pulse text-primaryOrange" />
-                        <p>zapaska96@gmail.com</p>
+                        <p>ilya.prikhodko22@gmail.com</p>
                     </div>
                 </div>
                 <form
