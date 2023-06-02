@@ -3,7 +3,7 @@ import CarRental from '../images/CarRental.png';
 import DrawGa from '../images/DrawGa.png';
 import FuturWear from '../images/FuturWear.png';
 import HomeLand from '../images/HomeLand.png';
-import Summize from '../images/Summize.png';
+import Chichirp from '../images/Chichirp2.png';
 
 export type ProjectDataType = {
     image: StaticImageData;
@@ -32,6 +32,13 @@ export const projectsList: ProjectDataType[] = [
         demo_link: 'https://draw.ga/Draw',
     },
     {
+        title: 'Chichirp',
+        text: 'Chichirp - удобное приложение с авторизацией через GitHub, предоставляющее пользователям возможность делиться своими мыслями и идеями в уникальной главной ленте. С адаптивным дизайном и темной темой, Chichirp обеспечивает удобство использования на любом устройстве и создает привлекательную платформу для вдохновения и взаимодействия в сообществе.',
+        image: Chichirp,
+        code_link: 'https://github.com/pablosukaban/chichirp',
+        demo_link: 'https://chichirp.vercel.app/',
+    },
+    {
         title: 'FuturWear',
         text: 'FuturWear - 3D сайт, который позволяет пользователям создавать свои собственные дизайны футболок. Есть функция загрузки своих файлов или использования ИИ для создания уникальных дизайнов. ',
         image: FuturWear,
@@ -44,12 +51,5 @@ export const projectsList: ProjectDataType[] = [
         image: HomeLand,
         code_link: 'https://github.com/pablosukaban/homeland-real-estate',
         demo_link: 'https://homeland-flame.vercel.app/',
-    },
-    {
-        title: 'Summize',
-        text: 'Summize - ИИ-сайт, который резюмирует блоги и статьи для пользователей. Пользователи могут вставлять ссылки на любую публикацию, а ИИ создаст краткое описание для них. Это позволяет экономить время и получить основную информацию.',
-        image: Summize,
-        code_link: 'https://github.com/pablosukaban/ai-summarizer',
-        demo_link: 'https://summize-five.vercel.app/',
     },
 ];
