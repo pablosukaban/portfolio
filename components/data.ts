@@ -18,6 +18,13 @@ const exapleText =
 
 export const projectsList: ProjectDataType[] = [
     {
+        title: 'Chichirp',
+        text: 'Chichirp - удобное приложение с авторизацией через GitHub, предоставляющее пользователям возможность делиться своими мыслями и идеями в уникальной главной ленте. С адаптивным дизайном и темной темой, Chichirp обеспечивает удобство использования на любом устройстве и создает привлекательную платформу для вдохновения и взаимодействия в сообществе.',
+        image: Chichirp,
+        code_link: 'https://github.com/pablosukaban/chichirp',
+        demo_link: 'https://chichirp.vercel.app/',
+    },
+    {
         title: 'CarRental',
         text: 'Car rental - Сайт-агрегатор, позволяющий арендовать автомобиль у разных компаний в одном месте. Пользователи могут выбирать автомобили на основе их местоположения, цены и других параметров.',
         image: CarRental,
@@ -29,14 +36,7 @@ export const projectsList: ProjectDataType[] = [
         text: 'DrawGa - Многопользовательская онлайн-доска для рисования, которая позволяет пользователям создавать и редактировать рисунки в реальном времени. Кроме того, пользователи могут взаимодействовать друг с другом, добавлять комментарии и обмениваться советами по рисованию.',
         image: DrawGa,
         code_link: 'https://github.com/Capybara77/drawga',
-        demo_link: 'https://draw.ga/Draw',
-    },
-    {
-        title: 'Chichirp',
-        text: 'Chichirp - удобное приложение с авторизацией через GitHub, предоставляющее пользователям возможность делиться своими мыслями и идеями в уникальной главной ленте. С адаптивным дизайном и темной темой, Chichirp обеспечивает удобство использования на любом устройстве и создает привлекательную платформу для вдохновения и взаимодействия в сообществе.',
-        image: Chichirp,
-        code_link: 'https://github.com/pablosukaban/chichirp',
-        demo_link: 'https://chichirp.vercel.app/',
+        demo_link: 'https://draw.usue.ml/Draw?id=42',
     },
     {
         title: 'FuturWear',
