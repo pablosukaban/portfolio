@@ -1,9 +1,10 @@
-import { StaticImageData } from 'next/image';
+import {StaticImageData} from 'next/image';
 import CarRental from '../images/CarRental.png';
 import DrawGa from '../images/DrawGa.png';
 import FuturWear from '../images/FuturWear.png';
 import HomeLand from '../images/HomeLand.png';
 import Chichirp from '../images/Chichirp2.png';
+import Astoria from '../images/astoria.png';
 
 export type ProjectDataType = {
     image: StaticImageData;
@@ -23,6 +24,13 @@ export const projectsList: ProjectDataType[] = [
         image: Chichirp,
         code_link: 'https://github.com/pablosukaban/chichirp',
         demo_link: 'https://chichirp.vercel.app/',
+    },
+    {
+        title: 'Astoria',
+        text: 'Моя дипломная работа - онлайн-магазин для компании Астория. Это удобная онлайн платформа с авторизацией для покупателей, где клиенты могут просматривать список имеющихся товаров и оставлять заявки на их покупки. Также присутствует панель администратора для добавления новых авто.',
+        image: Astoria,
+        code_link: 'https://github.com/pablosukaban/cars-store',
+        demo_link: 'https://astoria-store.vercel.app/',
     },
     {
         title: 'CarRental',
