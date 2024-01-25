@@ -26,6 +26,13 @@ export const projectsList: ProjectDataType[] = [
         demo_link: 'https://chichirp.vercel.app/',
     },
     {
+        title: 'DrawGa',
+        text: 'DrawGa - Многопользовательская онлайн-доска для рисования, которая позволяет пользователям создавать и редактировать рисунки в реальном времени. Кроме того, пользователи могут взаимодействовать друг с другом, добавлять комментарии и обмениваться советами по рисованию.',
+        image: DrawGa,
+        code_link: 'https://github.com/Capybara77/drawga',
+        demo_link: 'https://atusue.ru/draw?id=42',
+    },
+    {
         title: 'Astoria',
         text: 'Моя дипломная работа - онлайн-магазин для компании Астория. Это удобная онлайн платформа с авторизацией для покупателей, где клиенты могут просматривать список имеющихся товаров и оставлять заявки на их покупки. Также присутствует панель администратора для добавления новых авто.',
         image: Astoria,
@@ -38,13 +45,6 @@ export const projectsList: ProjectDataType[] = [
         image: CarRental,
         code_link: 'https://github.com/pablosukaban/car-rental',
         demo_link: 'https://car-rental-lyart.vercel.app/',
-    },
-    {
-        title: 'DrawGa',
-        text: 'DrawGa - Многопользовательская онлайн-доска для рисования, которая позволяет пользователям создавать и редактировать рисунки в реальном времени. Кроме того, пользователи могут взаимодействовать друг с другом, добавлять комментарии и обмениваться советами по рисованию.',
-        image: DrawGa,
-        code_link: 'https://github.com/Capybara77/drawga',
-        demo_link: 'https://draw.usue.ml/Draw?id=42',
     },
     {
         title: 'FuturWear',
